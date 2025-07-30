@@ -4,7 +4,7 @@
 print("Calculator")
 first = input("First: ")
 second = input("Second: ")
-dependor = input("Dependor: ")
+dependor = input("Operator: ")
 if dependor == "+":
   print(float(first) + float(second))
 if dependor == "-":
