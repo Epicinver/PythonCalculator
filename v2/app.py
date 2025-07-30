@@ -3,11 +3,11 @@ print("Thanks for using this basic calculator")
 first = float(input("First: "))
 second = float(input("Second: "))
 while True:
-    dependor = input("Dependor (+, -, *, /): ")
+    dependor = input("Operator (+, -, *, /): ")
     if dependor in ["+", "-", "*", "/"]:
         break
     else:
-        print(f"Hey, the dependor you have chose ({dependor}) isn't a dependor!")
+        print(f"Hey, the operator you have chose ({dependor}) isn't a valid operator!")
 if dependor == "+":
     print("The answer is", first + second)
 elif dependor == "-":
